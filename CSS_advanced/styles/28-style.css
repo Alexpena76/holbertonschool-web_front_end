@@ -1,6 +1,5 @@
 @import url("27-style.css");
 
-/* Define custom properties */
 :root {
   --header-padding: 4rem 0 0;
   --header-logo-position: relative;
@@ -10,17 +9,14 @@
   --header-logo-link-left: 0;
 }
 
-/* Header selector */
-header {
+.header {
   padding: var(--header-padding);
 }
 
-/* Header logo selector */
 .header-logo {
   position: var(--header-logo-position);
 }
 
-/* Target link inside header-logo */
 .header-logo a {
   display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
