@@ -1,0 +1,23 @@
+@import url("28-style.css");
+
+/* Update variable */
+:root {
+  --nav-item-link-hover: var(--color-white);
+}
+
+/* Target the ::before pseudo-element of .nav-link inside .nav */
+.nav .nav-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 0;
+  height: 0.2rem; /* 20% of root (2rem if font-size is 10px ≈ 1rem = 10px) */
+}
+
+/* When the nav-item is hovered, target the ::before of .nav-link */
+.nav .nav-item:hover .nav-link::before {
+  background-color: var(--color-primary);
+  width: 100%;
+}
