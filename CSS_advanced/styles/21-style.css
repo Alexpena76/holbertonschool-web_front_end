@@ -3,8 +3,7 @@
 /* Select all classes that start with 'col-' */
 [class^="col-"] {
   float: left;
-  padding: calc(var(--root-font-size) / 2); /* OR use 0.5rem if undefined */
-  /* Usually this was "padding: 0.5rem" before */
+  padding: calc(1rem / 2);
 }
 
 /* Keep the individual width settings */
