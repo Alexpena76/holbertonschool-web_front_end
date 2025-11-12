@@ -1,0 +1,8 @@
+@import url("21-style.css");
+
+/* Style the sections with data-section-theme="dark" */
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background: var(--color-black);
+}
