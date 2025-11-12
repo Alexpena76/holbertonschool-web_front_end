@@ -1,0 +1,17 @@
+@import url("20-style.css");
+
+/* Select all classes that start with 'col-' */
+[class^="col-"] {
+  float: left;
+  padding: calc(var(--root-font-size) / 2); /* OR use 0.5rem if undefined */
+  /* Usually this was "padding: 0.5rem" before */
+}
+
+/* Keep the individual width settings */
+.col-1-3 {
+  width: 33.33%;
+}
+
+.col-1-2 {
+  width: 50%;
+}
