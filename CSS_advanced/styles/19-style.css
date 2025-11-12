@@ -1,0 +1,44 @@
+/* Import all previous styles */
+@import url('18-style.css');
+
+/* Custom property for section tagline margin */
+:root {
+  --section-tagline-margin: 0;
+}
+
+/* Section tagline styles */
+.section-tagline {
+  margin: var(--section-tagline-margin);
+}
+
+/* UL elements with class row */
+ul.row {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Columns */
+.col-1-3 {
+  width: 33.33%;
+  float: left;
+  padding: 0.5rem;
+}
+
+.col-1-2 {
+  width: 50%;
+  float: left;
+  padding: 0.5rem;
+}
+
+/* Footer copyright */
+.footer-copyright {
+  margin: 0;
+  font-size: var(--font-size-small);
+  color: var(--text-color);
+}
+
+/* Footer lists */
+footer ul {
+  text-align: right;
+}
