@@ -39,6 +39,7 @@ ul.row {
 }
 
 /* Footer lists */
-footer ul {
+.footer ul {
   text-align: right;
 }
+
